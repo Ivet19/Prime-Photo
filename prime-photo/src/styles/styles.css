@@ -1,0 +1,16 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  height: 100vh;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
