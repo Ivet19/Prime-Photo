@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="200" height="200">
+	<style>
+		.s0 { fill: #000000 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path id="P" fill-rule="evenodd" class="s0" d="m382.08 604.27v173.73h-280.37v-173.73h53.08v-408.25h-53.08v-173.73h484.02l114.85 114.85v224.4l-114.85 114.85h-257.21v127.88zm-53.57-279.89h164.56l33.78-33.78v-60.8l-33.78-33.78h-164.56z"/>
+	<path id="Background copy" fill-rule="evenodd" class="s1" d="m700 189.01v6.98h-598v-6.98z"/>
+	<path id="Forma 1" fill-rule="evenodd" class="s1" d="m382 604v7h-280v-7z"/>
+</svg>
