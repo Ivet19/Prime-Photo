@@ -1,14 +1,11 @@
 .main-header {
   display: flex;
   justify-content: flex-start;
+  padding: 20px 30px;
   border-bottom: 1px solid var(--light-grey);
 }
 
-.site-title-container {
-  padding: 20px 30px;
-}
-
-.sr-only {
+.site-title {
   position: absolute;
   width: 1px;
   height: 1px;
