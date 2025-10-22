@@ -9,7 +9,7 @@ const Header: React.FC = () => {
           className="site-logo"
           src="/images/logo.svg"
           alt=""
-          data-testid="logo"
+          data-testid="app-logo"
           width={183}
           height={110}
         />
