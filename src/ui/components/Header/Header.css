@@ -1,18 +1,15 @@
 .main-header {
   display: flex;
   justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  position: fixed;
   padding: 20px 30px;
   border-bottom: 1px solid var(--light-grey);
+  background-color: var(--base-color);
 }
 
 .site-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
+  line-height: 0;
 }

@@ -4,8 +4,7 @@ import "./Header.css";
 const Header: React.FC = () => {
   return (
     <header className="main-header">
-      <div className="site-title-container">
-        <h1 className="site-title">Prime Photo</h1>
+      <h1 className="site-title" aria-label="Prime Photo">
         <img
           className="site-logo"
           src="/images/logo.svg"
@@ -14,7 +13,7 @@ const Header: React.FC = () => {
           width={183}
           height={110}
         />
-      </div>
+      </h1>
     </header>
   );
 };
