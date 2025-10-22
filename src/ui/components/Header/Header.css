@@ -1,0 +1,15 @@
+.main-header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--light-grey);
+  background-color: var(--base-color);
+}
+
+.site-title {
+  line-height: 0;
+}

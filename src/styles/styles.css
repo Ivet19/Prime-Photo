@@ -1,16 +1,36 @@
+:root {
+  --base-color: #f5f5f5;
+  --light-grey: #b4b4b4;
+}
+
 *,
 ::after,
 ::before {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "FCBARCELONA-Regular";
+  src: url("/public/fonts/FCBARCELONA-Regular.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  margin: 0;
+  background-color: var(--base-color);
+  font-family: "FCBARCELONA-Regular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-.main-container {
-  height: 100vh;
-  max-width: auto;
-  margin: 0 auto;
-  padding: 20px;
+img {
+  max-width: 100%;
 }
