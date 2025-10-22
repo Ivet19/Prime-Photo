@@ -9,10 +9,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "FCBARCELONA-Regular";
+  src: url("/public/fonts/FCBARCELONA-Regular.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   background-color: var(--base-color);
-  font-family: "Beiruti Variable", sans-serif;
+  font-family: "FCBARCELONA-Regular", sans-serif;
 }
 
 h1,
