@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Layout from "./components/Layout/Layout";
+import App from "./ui/components/App/App";
 import "./styles/styles.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Layout />
+    <App />
   </StrictMode>,
 );
